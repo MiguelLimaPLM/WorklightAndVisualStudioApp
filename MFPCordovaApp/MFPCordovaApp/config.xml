@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="com.ibm.MFPCordovaApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+  <name>MFPCordovaApp</name>
+  <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+  <author href="https://developer.ibm.com/mobilefirstplatform/documentation/getting-started" email="mobileb@us.ibm.com">
+        IBM MobileFirst Team
+    </author>
+  <content src="index.html" />
+  <access origin="*" />
+  <preference name="mfpServerUrl" value="http://192.168.56.1:10080" />
+  <preference name="mfpServerRuntime" value="HolaMundo" />
+  <preference name="displayName" value="MFPCordovaApp" />
+  <preference name="mfpManualInit" value="false" />
+  <vs:platformSpecificValues />
+</widget>
